@@ -5,6 +5,7 @@ import AboutMe from "../content/aboutme";
 import Experience from "../content/experience";
 import TeckStack from "../content/teckStack";
 import Contact from "../content/connect";
+import Projects from "../content/projects";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <Experience />
           <TeckStack />
           <Contact />
+          <Projects />
         </section>
       </div>
       <footer className="max-w-4xl mx-auto px-4 py-8 border-t border-border mt-12">

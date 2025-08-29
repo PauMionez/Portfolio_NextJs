@@ -2,6 +2,7 @@
 
 import React from "react";
 import { MapPin, Laptop, Medal } from "lucide-react";
+import SwitchMode from "../app/Themes/SwitchMode";
 
 const basicInfo = () => {
   return (
@@ -23,6 +24,7 @@ const basicInfo = () => {
             </h1>
           </div>
           {/* //Button here */}
+          <SwitchMode />
         </div>
         <p className="text-xs md:text-sm text-foreground/70 mt-0.5 flex items-center gap-1">
           <MapPin className="text-amber-300 w-4 h-4" />

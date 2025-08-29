@@ -1,14 +1,30 @@
 @import "tailwindcss";
 
 :root {
+
   /* --background: #ffffff;
   --foreground: #171717; */
-
-  --background: #000000;
+  /* --background: #000000;
   --foreground: #ffffff;
   --border: #333;
   --muted: #111;
-  --accent: #fff
+  --accent: #fff */
+
+    --background: #fff;
+    --foreground: #000;
+    --muted: #fff;
+    --border: #eaeaea;
+    --accent: #111;
+    --shadow: rgba(0, 0, 0, 0.03);
+} 
+
+:root[class~=dark] {
+    --background: #000;
+    --foreground: #fff;
+    --muted: #111;
+    --border: #333;
+    --accent: #fff;
+    --shadow: rgba(255, 255, 255, 0.08);
 }
 
 @theme inline {
@@ -69,7 +85,7 @@ body {
 
   .bento-card:hover {
     transform: translateY(4px);
-    box-shadow: 0 4px 10px 10px rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 10px 10px var(--shadow);
     border-color: var(--border)
   }
 
