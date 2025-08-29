@@ -7,7 +7,7 @@ const connect = () => {
   return (
     <div className="bento-card p-4 col-span-1 md:col-span-2 space-y-3 group animate-fade-in animation-delay-500">
       <div className="flex items-center gap-2">
-        <Mail />
+        <Mail className="text-gray-400 " />
         <h2 className="text-lg font-bold">Connect</h2>
       </div>
       <div className="space-y-4">

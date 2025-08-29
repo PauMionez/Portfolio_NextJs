@@ -15,13 +15,13 @@ const aboutme = () => {
         for software development, tech troubleshooting, and digital creativity.
         <br />
         <br /> */}
-        I'm a software developer passionate about crafting both desktop and web
-        applications. I enjoy solving complex problems, designing intuitive user
-        experiences, and continuously learning new technologies.
+        I&apos;m a software developer passionate about crafting both desktop and
+        web applications. I enjoy solving complex problems, designing intuitive
+        user experiences, and continuously learning new technologies.
         <br />
         <br />
-        When I'm not working, you'll probably find me gaming, listening to
-        music, drinking coffee, or catching up on anime.
+        When I&apos;m not working, you&apos;ll probably find me gaming,
+        listening to music, drinking coffee, or catching up on anime.
       </p>
     </div>
   );

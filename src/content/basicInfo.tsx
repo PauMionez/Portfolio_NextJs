@@ -3,14 +3,16 @@
 import React from "react";
 import { MapPin, Laptop, Medal } from "lucide-react";
 import SwitchMode from "../app/Themes/SwitchMode";
+import Image from "next/image";
 
 const basicInfo = () => {
   return (
     <div className="flex items-center gap-4 md:gap-6">
-      <img
+      <Image
         alt="Pau Mionez"
         fetchPriority="high"
-        width="160"
+        width={160}
+        height={160}
         decoding="async"
         data-nimg="1"
         className="rounded-lg w-32 h-32 md:w32 md:h-32 object-cover flex-shrink-0"
