@@ -11,13 +11,17 @@ const connect = () => {
         <h2 className="text-lg font-bold">Connect</h2>
       </div>
       <div className="space-y-4">
-        <a
-          className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
-          href="mailto:pau.mionez@gmail.com"
-        >
-          <p className="text-xs text-foreground/70">Email</p>
-          <p className="text-sm font-medium">pau.mionez@gmail.com</p>
-        </a>
+        <div>
+          <a
+            className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=pau.mionez@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="text-xs text-foreground/70">Email</p>
+            <p className="text-sm font-medium">pau.mionez@gmail.com</p>
+          </a>
+        </div>
         <div className="block p-2 rounded-md bg-foreground/5 border border-foreground/10">
           <p className="text-xs text-foreground/70">Phone</p>
           <p className="text-sm font-medium">09365318575</p>
