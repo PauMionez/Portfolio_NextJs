@@ -36,16 +36,16 @@ const projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="block space-y-1"
-            href="https://snakegamepau.vercel.app/"
+            href="https://github.com/PauMionez/HandWritten-OCR-II.git"
           >
             <h3 className="text-sm font-semibold group-hover:text-accent">
-              Snake Games
+              Hand Written ICR
             </h3>
             <p className="text-xs text-foreground/70">
-              Snake games using Next JS
+              Text recognition using TrOcr using ONNX runtime
             </p>
             <p className="text-xs text-foreground/50 font-mono bg-foreground/5 border border-foreground/10 px-2 py-1 rounded-md inline-block mt-1">
-              snakegamepau.vercel.app
+              PauMionez/HandWritten-OCR-II/releases/tag/v2
             </p>
           </a>
         </div>
@@ -55,16 +55,16 @@ const projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="block space-y-1"
-            href="https://snakegamepau.vercel.app/"
+            href="https://github.com/PauMionez/Alto-Viewer"
           >
             <h3 className="text-sm font-semibold group-hover:text-accent">
-              Snake Games
+              Alto Viewer
             </h3>
             <p className="text-xs text-foreground/70">
-              Snake games using Next JS
+              XML ALTO files with highlighted text regions
             </p>
             <p className="text-xs text-foreground/50 font-mono bg-foreground/5 border border-foreground/10 px-2 py-1 rounded-md inline-block mt-1">
-              snakegamepau.vercel.app
+              PauMionez/Alto-Viewer
             </p>
           </a>
         </div>
