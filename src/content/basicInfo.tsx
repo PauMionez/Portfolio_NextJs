@@ -4,8 +4,22 @@ import React from "react";
 import { MapPin, Laptop, Medal } from "lucide-react";
 import SwitchMode from "../app/Themes/SwitchMode";
 import Image from "next/image";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const basicInfo = () => {
+
+  const { resolvedTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  const profilePic = !mounted
+  ? "/formal day time.png"
+  : resolvedTheme === "dark"
+  ? "/formal night time.png"
+  : "/formal day time.png"
+
   return (
     <div className="flex items-center gap-4 md:gap-6">
       <Image
@@ -16,7 +30,7 @@ const basicInfo = () => {
         decoding="async"
         data-nimg="1"
         className="rounded-lg w-32 h-32 md:w32 md:h-32 object-cover flex-shrink-0"
-        src="/mypic.jpg"
+        src={profilePic}
       />
       <div className="flex-1 min-w-0">
         <div className="flex items-center justify-between grap-2">
