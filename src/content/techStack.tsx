@@ -2,12 +2,12 @@
 import React from "react";
 import { FlaskConical } from "lucide-react";
 
-const teckStack = () => {
+const techStack = () => {
   return (
     <div className="bento-card p-4 col-span-1 md:col-span-4 space-y-2 group animate-fade-in animation-delay-200">
       <div className="flex items-center gap-2">
         <FlaskConical className="text-gray-400 " />
-        <h2 className="text-lg font-bold">Teck Stack</h2>
+        <h2 className="text-lg font-bold">Tech Stack</h2>
       </div>
 
       <div className="space-y-4">
@@ -32,9 +32,6 @@ const teckStack = () => {
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
               Figma
             </span>
-            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
-              BootStrap
-            </span>
           </div>
         </div>
 
@@ -51,6 +48,9 @@ const teckStack = () => {
               ASP.Net
             </span>
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+              WPF (MVVM)
+            </span>
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
               PHP
             </span>
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
@@ -62,6 +62,9 @@ const teckStack = () => {
             <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
               MySql
             </span>
+            <span className="px-2 py-0.5 text-xs rounded-md bg-foreground/5 border border-foreground/10">
+              DB3
+            </span>
           </div>
         </div>
       </div>
@@ -69,4 +72,4 @@ const teckStack = () => {
   );
 };
 
-export default teckStack;
+export default techStack;

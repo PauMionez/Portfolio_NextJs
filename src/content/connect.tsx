@@ -28,7 +28,7 @@ const connect = () => {
         </div>
         <a
           className="flex items-center gap-2 p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
-          href="https://drive.google.com/file/d/1x83ps8ia5DEaYfjuXHqcNBcY7Za13bV6/view?usp=sharing"
+          href="https://drive.google.com/file/d/1PlzxBFxyYkrNRp3AcTgOs3rHurJN9p-z/view?usp=drive_link"
         >
           <FileDown className="w-5 h-5" />
           <p className="text-sm font-medium">Download my CV</p>

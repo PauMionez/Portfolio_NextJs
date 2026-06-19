@@ -3,7 +3,7 @@ import BasicInfo from "../content/basicInfo";
 import HackatonButton from "../content/hackatonButton";
 import AboutMe from "../content/aboutme";
 import Experience from "../content/experience";
-import TeckStack from "../content/teckStack";
+import TechStack from "../content/techStack";
 import Contact from "../content/connect";
 import Projects from "../content/projects";
 
@@ -18,7 +18,7 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-6 gap-2">
           <AboutMe />
           <Experience />
-          <TeckStack />
+          <TechStack />
           <Contact />
           <Projects />
         </section>
