@@ -74,16 +74,16 @@ const projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="block space-y-1"
-            href="https://snakegamepau.vercel.app/"
+            href="https://github.com/PauMionez/Meeting-Note-Taker"
           >
             <h3 className="text-sm font-semibold group-hover:text-accent">
-              Snake Games
+              Note Taker
             </h3>
             <p className="text-xs text-foreground/70">
-              Snake games using Next JS
+              Meeting note taker
             </p>
             <p className="text-xs text-foreground/50 font-mono bg-foreground/5 border border-foreground/10 px-2 py-1 rounded-md inline-block mt-1">
-              snakegamepau.vercel.app
+              PauMionez/Meeting-Note-Taker
             </p>
           </a>
         </div>
