@@ -2,6 +2,7 @@
 import React from "react";
 import { Mail, FileDown } from "lucide-react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { connectionConfig } from "@/lib/data/connection-config";
 
 const connect = () => {
   return (
@@ -14,21 +15,21 @@ const connect = () => {
         <div>
           <a
             className="block p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=pau.mionez@gmail.com"
+            href={connectionConfig.goEmail}
             target="_blank"
             rel="noopener noreferrer"
           >
             <p className="text-xs text-foreground/70">Email</p>
-            <p className="text-sm font-medium">pau.mionez@gmail.com</p>
+            <p className="text-sm font-medium">{connectionConfig.email}</p>
           </a>
         </div>
         <div className="block p-2 rounded-md bg-foreground/5 border border-foreground/10">
           <p className="text-xs text-foreground/70">Phone</p>
-          <p className="text-sm font-medium">09365318575</p>
+          <p className="text-sm font-medium">{connectionConfig.phone}</p>
         </div>
         <a
           className="flex items-center gap-2 p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
-          href="https://drive.google.com/file/d/1PlzxBFxyYkrNRp3AcTgOs3rHurJN9p-z/view?usp=drive_link"
+          href={connectionConfig.cv}
         >
           <FileDown className="w-5 h-5" />
           <p className="text-sm font-medium">Download my CV</p>
@@ -43,7 +44,7 @@ const connect = () => {
               className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
               aria-label="Visit GitHub profile"
               title="Visit GitHub profile"
-              href="https://github.com/PauMionez"
+              href={connectionConfig.github}
             >
               {/* <FaGithub className="w-5 h-5 text-white" /> */}
               <FaGithub className="w-5 h-5" />
@@ -54,7 +55,7 @@ const connect = () => {
               className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
               aria-label="Visit LinkIn profile"
               title="Visit LinkIn profile"
-              href="https://www.linkedin.com/in/ma-pauline-mae-mionez"
+              href={connectionConfig.linkedin}
             >
               <FaLinkedin className="w-5 h-5" />
             </a>
@@ -64,7 +65,7 @@ const connect = () => {
               className="flex items-center justify-center p-2 rounded-md bg-foreground/5 border border-foreground/10 hover:bg-foreground/20 transition-colors"
               aria-label="Visit Instagram profile"
               title="Visit Instagram profile"
-              href="https://www.instagram.com/pxx_mnz?igsh=MXVmYmliMnFjYnhvZQ=="
+              href={connectionConfig.instagram}
             >
               <FaInstagram className="w-5 h-5" />
             </a>
